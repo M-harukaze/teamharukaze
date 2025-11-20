@@ -46,8 +46,8 @@ README.md　記載サンプル
 
 | 要素 | 指定 |
 | :--- | :--- |
-| **メインカラー** | `#007bff` (BootstrapのPrimary Blueを想定) |
-| **フォント** | 全体を通じて `sans-serif` を使用 |
+| **メインカラー** | `#27B300` (BootstrapのPrimary Blueを想定) |
+| **フォント** | 全体を通じて `inter` を使用 |
 | **見出し1 (`<h1>`)** | サイズ: `32px`、ウェイト: `bold` |
 | **スペーシング** | **要素間のマージン・パディング**は **`8px`の倍数**（`8px`, `16px`, `24px`, `32px`など）で統一すること。 |
 
@@ -58,13 +58,29 @@ README.md　記載サンプル
 以下の構造に従ってファイルを作成し、ナビゲーションを構築してください。
 
 * **`index.html`** (トップページ)
-    * 担当: [a]
-* **`schedule.html`** (スケジュール)
-    * 担当: [c]
+    * 担当: [全員]
+* **`index-style.css`** (トップぺージcss)
+    * 担当: [全員]
+* **`all-style.css`** (全体ページcss)
+    * 担当: [全員]
+
+
+* **`esashi.html`** (えさし藤原の郷紹介)
+    * 担当: [村上春風]
     * **遷移元:** `index.html`
-* **`speakers/index.html`** (登壇者一覧)
-    * 担当: [b]
-    * **遷移元:** `index.html`, `schedule.html`
+* **`esashi-style.css`** (えさし藤原の郷紹介ページcss)
+    * 担当: [村上春風]
+
+* **`tyusonji.html`** (中尊寺紹介)
+    * 担当: [北條壯磨]
+    * **遷移元:** `index.html`
+* **`tyusonji-style.css`** (中尊寺紹介ページcss)
+    * 担当: [北條壯磨]
+* **`yumenohashi.html`** (夢乃橋紹介)
+    * 担当: [菊池咲玖]
+    * **遷移元:** `index.html`
+* **`yumenohashi-style.css`** (夢乃橋紹介ページcss)
+    * 担当: [菊池咲玖]
 
 ## 4. 作業開始手順
 
